@@ -30,6 +30,8 @@ public class PaypalController {
         return "index";
     }
 
+    ///////// testing
+
     @PostMapping("/payment/create")
     public RedirectView createPayment(
             @RequestParam("method") String method,
